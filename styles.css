@@ -9,3 +9,24 @@ html, body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+
+.box {
+  margin: auto;
+  width: 60%;
+  border: 5px solid #221b1b;
+  padding: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* love by we are messengers*/
