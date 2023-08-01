@@ -19,12 +19,12 @@ html, body {
 
 p {
   text-align: center;
-<<<<<<< HEAD
 }
 
 .centeredElements {
-  margin: auto;
-  width: 29%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .rounded-button {
@@ -43,6 +43,4 @@ p {
 
 .rounded-button:hover {
   opacity: 0.6;
-=======
->>>>>>> cb3e054c22baa38aab6f8024c1c1bf268066ce98
 }
