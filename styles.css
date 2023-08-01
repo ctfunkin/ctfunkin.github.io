@@ -21,12 +21,25 @@ p {
   text-align: center;
 }
 
+.centeredElements {
+  margin: auto;
+  width: 29%;
+}
 
+.rounded-button {
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 1;
+  transition: 0.2s;
+  text-decoration: none;
+  color: aliceblue;
+}
 
-
-
-
-
-
-
-/* love by we are messengers*/
+.rounded-button:hover {
+  opacity: 0.6;
+}
