@@ -1,0 +1,19 @@
+:root {
+  --black: #111111;
+  --grey: #333333;
+  --lightgrey: #4a4a4a;
+  color-scheme: dark;
+}
+
+html, body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
