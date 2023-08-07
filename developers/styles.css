@@ -1,0 +1,42 @@
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Go back button */
+.goback {
+  background-color: rgb(123, 123, 123);
+  color: white;
+  
+  margin-right: 8px;
+  height: 35px;
+  width: 100px;
+
+  border: none;
+  border-radius: 3px;
+
+  transition: 0.15s;
+}
+
+.goback:hover {
+  opacity: 80%;
+  cursor: pointer;
+}

@@ -10,7 +10,72 @@ html, body {
 
 .container {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   height: 100vh;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Developers button */
+.developers {
+  background-color: rgb(0, 140, 215);
+  color: white;
+  
+  margin-right: 8px;
+  height: 35px;
+  width: 100px;
+
+  border: none;
+  border-radius: 3px;
+
+  transition: 0.15s;
+}
+
+.developers:hover {
+  background-color: rgb(0, 140, 255);
+  opacity: 80%;
+  cursor: pointer;
+}
+
+/* Gamebanana button */
+.gamebanana {
+  background-color: rgb(249,184,11);
+  
+  height: 64px;
+  width: 64px;
+  padding: 0px;
+
+  border: none;
+  border-radius: 30px;
+
+  transition: 0.15s;
+}
+
+.gamebanana:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+/* Twitter button */
+.twitter {
+  background-color: black;
+  
+  height: 64px;
+  width: 64px;
+  padding: 0px;
+
+  border: none;
+  border-radius: 30px;
+
+  transition: 0.15s;
+}
+
+.twitter:hover {
+  opacity: 60%;
+  cursor: pointer;
 }
