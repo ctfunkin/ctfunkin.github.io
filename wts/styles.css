@@ -1,0 +1,45 @@
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Download button */
+.download {
+  background-color: rgb(255, 255, 255);
+  color: rgb(108, 117, 125);
+  font-weight: bold;
+  
+  height: 35px;
+  width: 100px;
+
+  border-color: rgb(108, 117, 125);
+  border-width: 1px;
+  border-radius: 3px;
+  border-style: solid;
+
+  transition: 0.15s;
+}
+
+.download:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
